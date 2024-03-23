@@ -1,1 +1,1 @@
-# restaurant-page
+A simple restaurant page made entirely using JavaScript.
