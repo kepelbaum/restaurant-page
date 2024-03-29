@@ -1,0 +1,42 @@
+body {
+    color: red;
+    background: url('./restaurant.jpg'); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+#content {
+    background-color: rgba(15, 10, 3, 0.8);
+    width: 40vw;
+    height: 60vh;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+#content div {
+    max-width: 20vw;
+    font-size: 1.2rem;
+}
+
+button {
+    color: red;
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px;
+}
+
